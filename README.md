@@ -52,7 +52,7 @@ $ python hello.py
 
 Open http://localhost:5000/ in your web browser. It should look something like this:
 
-![hello world](img/hello_world.png)
+![hello world](img/hello_world.PNG)
 
 Congratulations, you've created a web app using Flask in just 7 lines of code!
 
@@ -95,7 +95,7 @@ Restart the application by running `python app.py` on your terminal. Try out the
 Your web browser should look something like this for the */hello/Tim* route:
 
 TODO:
-![hello tim](img/hello_tim.png)
+![hello tim](img/hello_tim.PNG)
 
 ### Step 3 - Styling
 
@@ -171,9 +171,9 @@ if __name__ == "__main__":
     app.run(host='0.0.0.0', port=80)
 ```
 
-Now run `python app.js` again and type in the URL http://localhost/hello/YOUR_NAME. It should look something like this:
+Now run `python app.js` again and go to the URL http://localhost/hello/YOUR_NAME. It should look something like this:
 
-![hello my name](img/hello_my_name.png)
+![hello my name](img/hello_my_name.PNG)
 
 ### Step 4 - More Interesting Things
 
@@ -223,22 +223,19 @@ Then, slightly modify your **test.html** file so that it looks like this:
 
 Finally, run `python app.js` once last time. Each time you view http://localhost/hello/YOUR_NAME, you should see a different quote!
 
-![hello random quote](img/hello_random_quote.png)
+![hello random quote](img/hello_random_quote.PNG)
+
+Annnnnd, you're done!!!
 
 ## Summary / What you Learned
 
 * [x] Create a Flask web app using 7 lines of code!
 * [x] Add routes
 * [x] Use templates
-* [x] Make web page with inspirational quotes
+* [x] Make a web page with inspirational quotes
 
 ## Resources
 
 * [Tutorial that this workshop is based off of](https://pythonspot.com/flask-web-app-with-python/)
-* [In-depth tutorial for a CRUD app using Flask](http://flask.pocoo.org/docs/1.0/tutorial/)
+* [In-depth tutorial to make a CRUD app using Flask](http://flask.pocoo.org/docs/1.0/tutorial/)
 * [Flask Mega-Tutorial](https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world)
-
-
-:sunglasses: GitHub markdown files [support emoji notation](http://www.emoji-cheat-sheet.com/)
-
-Here's a resource for [github markdown](https://guides.github.com/features/mastering-markdown/).
