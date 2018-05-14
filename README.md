@@ -94,7 +94,6 @@ Restart the application by running `python app.py` on your terminal. Try out the
 
 Your web browser should look something like this for the */hello/Tim* route:
 
-TODO:
 ![hello tim](img/hello_tim.PNG)
 
 ### Step 3 - Styling
