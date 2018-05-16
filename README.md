@@ -2,8 +2,9 @@
 
 ![flask](img/flask.png)
 
-**TODO:**
-Brief motivation here as well as in presentation
+Flask is a Python web framework that was originally developed by a group of Python enthusiasts as an April Fool's joke :stuck_out_tongue_closed_eyes:! It's now grown to become one of the most popular Python web frameworks.
+
+People love Flask for the same reasons that they love Python: it's simple, quick, and user-friendly to set up and learn. For these reasons, it's popular amongst beginners, people who are looking to quickly get an app up and running, and hackathon participants. However, its downsides are that it has limited features, it's not particularly async-friendly, and it's more difficult to create more complex applications.
 
 ## Overview
 
@@ -28,7 +29,7 @@ That was easy, wasn't it? And it doesn't get harder than that!! Flask is great.
 
 ### Step 1 - Hello World
 
-Fork this repo.
+Fork this repo!
 
 Create a file called **hello.py** and copy the following code into the file:
 
@@ -44,7 +45,7 @@ if __name__ == "__main__":
     app.run()
 ```
 
-Flask uses Python, so spacing/tabs/indents matter! Run your web app to make sure that everything's working:
+**Remember: Flask uses Python, so spacing/tabs/indents matter!** Run your web app to make sure that everything's working:
 
 ```
 $ python hello.py
@@ -86,7 +87,12 @@ if __name__ == "__main__":
     app.run()
 ```
 
-Restart the application by running `python app.py` on your terminal. Try out these URLS in your browser:
+Restart the application by running the following command on your terminal:
+
+```
+$ python app.py
+```
+Try out these URLS in your browser:
 
 * http://localhost:5000/
 * http://localhost:5000/hello
@@ -203,7 +209,9 @@ def hello(name):
         'test.html',**locals())
 ```
 
-Then, slightly modify your **test.html** file so that it looks like this:
+We pass multiple variable usings `**locals()`. `**` allows us to keyword argument unpack the built-in Python function `locals()`, which returns the local dictionary.
+
+Now, slightly modify your **test.html** file so that it looks like this:
 
 ```
 {% extends "layout.html" %}
@@ -226,6 +234,15 @@ Finally, run `python app.js` once last time. Each time you view http://localhost
 
 Annnnnd, you're done!!!
 
+## What to Submit / Extra Credit
+
+Submit the link to your forked repo containing the code for this workshop!
+
+Here are a couple of potential extra credit ideas:
+
+* Create a couple of new routes that display new/different content
+* Add a button to some page that redirects you to another page
+
 ## Summary / What you Learned
 
 * [x] Create a Flask web app using 7 lines of code!
@@ -238,3 +255,4 @@ Annnnnd, you're done!!!
 * [Tutorial that this workshop is based off of](https://pythonspot.com/flask-web-app-with-python/)
 * [In-depth tutorial to make a CRUD app using Flask](http://flask.pocoo.org/docs/1.0/tutorial/)
 * [Flask Mega-Tutorial](https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world)
+* [Flask main page](http://flask.pocoo.org/)
