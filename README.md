@@ -92,7 +92,7 @@ Restart the application by running the following command on your terminal:
 ```
 $ python app.py
 ```
-Try out these URLS in your browser:
+If this doesn't work for you, try `sudo python app.py`. Try out these URLS in your browser:
 
 * http://localhost:5000/
 * http://localhost:5000/hello
@@ -176,7 +176,7 @@ if __name__ == "__main__":
     app.run(host='0.0.0.0', port=80)
 ```
 
-Now run `python app.js` again and go to the URL http://localhost/hello/YOUR_NAME. It should look something like this:
+Now run `python app.js` again and go to the URL http://localhost/hello/YOUR_NAME. If this doesn't work for you, try `sudo python app.py`. It should look something like this:
 
 ![hello my name](img/hello_my_name.PNG)
 
@@ -228,7 +228,7 @@ Now, slightly modify your **test.html** file so that it looks like this:
 {% endblock %}
 ```
 
-Finally, run `python app.js` once last time. Each time you view http://localhost/hello/YOUR_NAME, you should see a different quote!
+Finally, run `python app.js` once last time. If this doesn't work for you, try `sudo python app.py`. Each time you view http://localhost/hello/YOUR_NAME, you should see a different quote!
 
 ![hello random quote](img/hello_random_quote.PNG)
 
