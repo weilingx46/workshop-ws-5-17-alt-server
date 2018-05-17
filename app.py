@@ -2,7 +2,6 @@ from flask import Flask, flash, redirect, render_template, request, session, abo
 from random import randint
 
 app = Flask(__name__)
-
 @app.route("/")
 def index():
     return "Flask App!"
